@@ -1,3 +1,24 @@
 body {
   background: papayawhip;
 }
+* {
+  border: 1px solid red;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+.a, .b, .f {
+  flex-grow: 3;
+  width: 100%;
+}
+.c, .d, .e {
+  flex-grow: 1;
+  width: 32%;
+}
+.c, .d, .e {
+  display: inline-block;
+}
