@@ -35,3 +35,20 @@ body {
 .b {
   flex-grow: 2;
 }
+
+@media (min-device-width: 600px) {
+  .container {
+    flex-flow: row wrap;
+  }
+  .combo {
+    width: 60%;
+    height: 60vh;
+  }
+  .f {
+    width: 30%;
+    height: 60vh;
+  }
+  .a {
+    height: 30vh;
+  }
+}
