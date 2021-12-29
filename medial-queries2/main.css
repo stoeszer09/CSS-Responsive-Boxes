@@ -7,18 +7,31 @@ body {
 
 .container {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   min-height: 100vh;
   justify-content: space-between;
 }
-.a, .b, .f {
+.combo {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 100%;
   flex-grow: 3;
+}
+.cde {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.a, .b, .f {
   width: 100%;
 }
-.c, .d, .e {
+.a, .f {
   flex-grow: 1;
-  width: 32%;
 }
 .c, .d, .e {
-  display: inline-block;
+  flex-grow:1;
+}
+.b {
+  flex-grow: 2;
 }
